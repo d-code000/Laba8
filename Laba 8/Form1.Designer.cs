@@ -38,9 +38,14 @@ partial class Form1
         // 
         // dataGridView
         // 
+        dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+        dataGridView.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
         dataGridView.ColumnHeadersHeight = 29;
+        dataGridView.ColumnHeadersVisible = false;
         dataGridView.Location = new System.Drawing.Point(0, -2);
         dataGridView.Name = "dataGridView";
+        dataGridView.ReadOnly = true;
+        dataGridView.RowHeadersVisible = false;
         dataGridView.RowHeadersWidth = 51;
         dataGridView.Size = new System.Drawing.Size(613, 378);
         dataGridView.TabIndex = 0;
