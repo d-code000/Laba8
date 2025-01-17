@@ -1,6 +1,6 @@
 ﻿namespace Laba_8;
 
-partial class Form1
+partial class TableForm
 {
     /// <summary>
     ///  Required designer variable.

@@ -2,11 +2,11 @@ using System.Data;
 
 namespace Laba_8;
 
-public partial class Form1 : Form
+public partial class TableForm : Form
 {
     private int[,] _matrix = new int[12, 12];
 
-    public Form1()
+    public TableForm()
     {
         InitializeComponent();
         dataGridView.AllowUserToAddRows = false;
